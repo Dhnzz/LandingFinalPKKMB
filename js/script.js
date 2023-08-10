@@ -21,17 +21,17 @@ $(window).on("load", function () {
     else{
         $('#pagepiling').pagepiling({
             direction: 'vertical',
-            sectionsColor: ['#171717', '#171717', '#171717', '#171717', '#171717', '#171717'],
-            anchors: ['home', 'about', 'timeline', 'portfolio', 'testimonial', 'contact'],
+            sectionsColor: ['#ffffff', '#ffffff', '#ffffff'],
+            anchors: ['home', 'merchandise', 'food_drink'],
             scrollingSpeed: 500,
             easing: 'linear',
             loopBottom: false,
             loopTop: false,
             css3: true,
             navigation: {
-                'bulletsColor': '#535353',
+                'bulletsColor': '#ffffff',
                 'position': 'right',
-                'tooltips': ['Home', 'About', 'Career Timeline', 'Portfolio', 'Testimonials', 'Contact'],
+                'tooltips': ['Home', 'Merchandise', 'Food & Drink'],
             },
             //events
             onLeave: function (index, nextIndex, direction) {
